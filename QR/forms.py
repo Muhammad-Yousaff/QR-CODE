@@ -4,8 +4,8 @@ class QRCodeForm(forms.Form):
     restaurant_name = forms.CharField(
         max_length=50,
         label='Restaurant Name',
-        widget=forms.TextInput(attrs={  # TextInput ka T capital hona chahiye
-            'class': 'form-control',    # frm-control => form-control
+        widget=forms.TextInput(attrs={
+            'class': 'form-control',
             'placeholder': 'Enter Restaurant Name'
         })
     )
